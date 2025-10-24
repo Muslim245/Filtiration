@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-poppins;
+}
+@media (min-width: 768px) {
+  .clip-md {
+    clip-path: polygon(0 0, 100% 0, 40% 100%, 0 100%);
+  }
+}
